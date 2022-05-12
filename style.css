@@ -1,0 +1,359 @@
+body {
+	background-image: url(img/background.png);
+} 
+
+* {
+	margin: 0;
+	padding: 0;
+} 
+
+#page {
+	margin: 0 auto;
+	border: none;
+	width: 900px;
+} 
+
+#menu {
+	height: 60px;
+	background: #002147;
+}
+
+#menu .header-besar {
+	font-size: 24px;
+	font-family: arial;
+	float: left;
+	color: white;
+	padding-top: 15px;
+	padding-left: 225px;
+}
+
+#menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background: #002147;
+	padding-top: 15px;
+	padding-left: 440px;
+}      
+
+#menu li { 
+	float: left;
+}
+
+#menu li a {
+	font-family: arial;
+	font-size: 13px;
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 7px 13px;
+	text-decoration: none;
+	
+}
+
+#konten-utama {
+	background: green; 
+}
+
+#home {
+	width: 100%; 
+	height: 530px;
+	background: #eaeaea;
+	float: left;
+}
+
+#home img {
+	width: 100%;
+	background-size: cover;
+}
+
+#about {
+	max-width: 100%; 
+	height: 250px;
+	background: #f2f2f2;
+	float: left;
+	padding: 30px;
+	border-top: 3px solid #555;
+}
+
+#about h1 {
+	text-transform: uppercase;
+	font-size: 22px;
+	font-family: arial; 
+	color: #333333;
+	text-align: center;
+	margin-top: 4%;
+}
+
+#about .border {
+	width: 50px;
+	margin: 10px auto;
+	border: 2px solid green;
+}
+
+#about p {
+	font-family: arial;
+	font-size: 13px;
+	text-align: center;
+	color: #555;
+	margin-top: 45px;
+	line-height: 18px;
+	padding: 0 80px;
+}
+
+#portfolio {
+	max-width: 100%; 
+	background: #ffffff;
+	float: left;
+	padding: 36px;
+}
+
+#portfolio h1 {
+	text-transform: uppercase;
+	font-size: 22px;
+	font-family: arial; 
+	color: #333333;
+	text-align: center;
+}
+
+#portfolio .border {
+	width: 50px;
+	margin: 10px auto;
+	border: 2px solid green;
+}
+
+#portfolio p {
+	font-family: arial;
+	font-size: 13px;
+	text-align: center;
+	color: #555;
+	margin-bottom: 12px;
+	margin-top: 30px;
+	line-height: 18px;
+	padding: 0 80px;
+}
+
+#portfolio .card-portfolio {
+	width: 250px;
+	height: 190px;
+	background-color: #eaeaea;
+	margin: 13px;
+	border-radius: 5px;
+	margin-top: 5%;
+}
+
+#portfolio .card-portfolio img {
+	width: 100%;
+	height: 150px;
+}
+
+#portfolio .card-portfolio .card-body {
+	font-size: 14px;
+	font-family: arial;
+	text-align: center;
+	margin-top: 11px;
+}
+
+
+#blog {
+	max-width: 100%; 
+	background: #f2f2f2;
+	float: left;
+	padding: 36px;
+}
+
+#blog h1 {
+	text-transform: uppercase;
+	font-size: 22px;
+	font-family: arial; 
+	color: #333333;
+	text-align: center;
+}
+
+#blog .border {
+	width: 50px;
+	margin: 10px auto;
+	border: 2px solid green;
+}
+
+#blog .card-blog {
+	width: 220px;
+	height: 270px;
+	background-color: #eaeaea;
+	margin: 28px;
+	border-radius:6px;
+}
+
+#blog .card-blog img {
+	width: 100%;
+	height: 150px;
+}
+
+#blog .card-blog .judul {
+	font-size: 14px;
+	font-family: arial;
+	margin-top: 7px;
+	margin-left: 8px;
+}
+
+#blog .card-blog .tgl {
+	font-size: 9px;
+	font-family: arial;
+	margin-top: 2px;
+	margin-left: 9px;
+	color: green;
+}
+
+#blog .card-blog .desk-blog {
+	font-size: 10px;
+	font-family: arial;
+	margin-left: 9px;
+	margin-top: 10px;
+}
+
+#blog .card-blog .btn-blog {
+	font-size: 11px;
+	font-family: arial;
+	margin-left: 9px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#team {
+	max-width: 100%; 
+	background: white;
+	float: left;
+	padding: 36px;
+}
+
+#team h1 {
+	text-transform: uppercase;
+	font-size: 22px;
+	font-family: arial; 
+	color: #333333;
+	text-align: center;
+}
+
+#team .border {
+	width: 50px;
+	margin: 10px auto;
+	border: 2px solid green;
+}
+
+
+#team .card-team {
+	width: 220px;
+	height: 200px;
+	background-color: #f1f1f1;
+	margin: 28px;
+	border-radius:6px;
+	position: relative;
+	margin-top: 10%;
+}
+
+#team .card-pict {
+	width: 80px;
+	height: 80px;
+	background-color: #eaeaea;
+	position: absolute;
+	bottom: 170px;
+	left: 70px;
+	border-radius: 50%;
+}
+
+#team .card-pict img {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+}
+
+#team .card-team .nama {
+	font-size: 15px;
+	font-family: arial;
+	text-align: center;
+	margin-top: 45px;
+}
+
+#team .card-team .jabatan {
+	font-size: 10px;
+	font-family: arial;
+	text-align: center;
+	margin-top: 8px;
+	color: green;
+}
+
+#team .card-team .desk {
+	font-size: 10px;
+	font-family: arial;
+	text-align: center;
+	margin-top: 18px;
+	padding: 15px;
+}
+
+#team .card-blog p {
+	font-size: 12px;
+}
+
+#contact {
+	max-width: 100%; 
+	height: 180px;
+	background: #343a40;
+	float: left;
+	padding: 36px;
+}
+
+#contact h1 {
+	text-transform: uppercase;
+	font-size: 22px;
+	font-family: arial; 
+	color: #333333;
+	text-align: center;
+	color: white;
+}
+
+#contact .border {
+	width: 50px;
+	margin: 10px auto;
+	border: 2px solid white;
+}
+
+#contact .card-contact {
+	width: 220px;
+	height: 100px;
+	margin: 28px;
+	border-radius:6px;
+	margin-top: 40px;
+}
+
+#contact .card-contact p {
+	font-size: 13px;
+	font-family: arial;
+	text-align: center;
+	color: #eaeaea;
+}
+
+#contact .card-contact a {
+	font-size: 13px;
+	font-family: arial;
+	text-align: center;
+	color: #eaeaea;
+	text-decoration: none;
+}
+
+#footer {
+	max-width: 100%; 
+	height: 40px;
+	background: black;
+	clear: left;
+	padding: 8px;
+}
+
+#footer p {
+	font-family: arial;
+	font-size: 12px;
+	color: #fff;
+	padding-top: 4px;
+	text-align: center;
+}
+
